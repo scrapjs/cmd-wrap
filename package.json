@@ -1,35 +1,41 @@
 {
-  "name": "wrap-file",
+  "name": "cmd-wrap",
   "version": "0.0.0",
-  "description": "Wrap file with a string passed",
-  "main": "index.js",
+  "description": "Wrap stdin with a string passed",
   "bin": {
-    "wrap": "cmd.js"
+    "wrap": "./cli.js"
   },
   "files": [
-    "index.js"
+    "cli.js"
   ],
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dfcreative/wrap-file"
+    "url": "https://github.com/dfcreative/cmd-wrap"
   },
   "keywords": [
     "wrap",
+    "wrap-stdin",
     "wrap-file",
+    "wrap-cmd",
+    "wrap-cli",
     "wrapper",
     "wrapped",
-    "closurecompiler"
+    "closurecompiler",
+    "stdin"
   ],
   "author": {
-    "name":"Deema Ywanov",
-    "email":"df.creative@gmail.com>"
+    "name": "Deema Ywanov",
+    "email": "df.creative@gmail.com"
   },
   "license": "Unlicensed",
   "bugs": {
-    "url": "https://github.com/dfcreative/wrap-file/issues"
+    "url": "https://github.com/dfcreative/cmd-wrap/issues"
   },
-  "homepage": "https://github.com/dfcreative/wrap-file"
+  "homepage": "https://github.com/dfcreative/cmd-wrap",
+  "dependencies": {
+    "wrap-stream": "~2.0.0"
+  }
 }
