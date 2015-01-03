@@ -1,7 +1,7 @@
 {
   "name": "cmd-wrap",
   "version": "1.0.1",
-  "description": "Wrap stdin command",
+  "description": "Wrap stdin",
   "bin": {
     "wrap": "cli.js"
   },
