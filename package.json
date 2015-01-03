@@ -1,0 +1,29 @@
+{
+  "name": "wrap-file",
+  "version": "0.0.0",
+  "description": "Wrap file with a string passed",
+  "main": "index.js",
+  "bin": {
+    "wrap-file": "cmd.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfcreative/wrap-file"
+  },
+  "keywords": [
+    "wrap",
+    "wrap-file",
+    "wrapper",
+    "wrapped",
+    "closurecompiler"
+  ],
+  "author": "Deema Ywanov <df.creative@gmail.com>",
+  "license": "Unlicensed",
+  "bugs": {
+    "url": "https://github.com/dfcreative/wrap-file/issues"
+  },
+  "homepage": "https://github.com/dfcreative/wrap-file"
+}
