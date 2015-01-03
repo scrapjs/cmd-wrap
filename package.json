@@ -1,7 +1,7 @@
 {
   "name": "cmd-wrap",
   "version": "1.0.0",
-  "description": "Wrap stdin with a string passed",
+  "description": "Wrap stdin command",
   "bin": {
     "wrap": "cli.js"
   },
@@ -14,6 +14,8 @@
   },
   "keywords": [
     "wrap",
+    "wrap-stream",
+    "wrap-string",
     "wrap-stdin",
     "wrap-file",
     "wrap-cmd",
@@ -21,7 +23,8 @@
     "wrapper",
     "wrapped",
     "closurecompiler",
-    "stdin"
+    "stdin",
+    "output_wrapper"
   ],
   "author": {
     "name": "Deema Ywanov",
