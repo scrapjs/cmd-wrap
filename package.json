@@ -3,14 +3,11 @@
   "version": "0.0.0",
   "description": "Wrap stdin with a string passed",
   "bin": {
-    "wrap": "./cli.js"
+    "wrap": "cli.js"
   },
   "files": [
     "cli.js"
   ],
-  "scripts": {
-    "test": "node test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dfcreative/cmd-wrap"
@@ -36,6 +33,6 @@
   },
   "homepage": "https://github.com/dfcreative/cmd-wrap",
   "dependencies": {
-    "wrap-stream": "~2.0.0"
+    "wrap-stream": "^2.0.0"
   }
 }
