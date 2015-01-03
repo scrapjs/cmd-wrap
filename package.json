@@ -4,10 +4,13 @@
   "description": "Wrap file with a string passed",
   "main": "index.js",
   "bin": {
-    "wrap-file": "cmd.js"
+    "wrap": "cmd.js"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,10 @@
     "wrapped",
     "closurecompiler"
   ],
-  "author": "Deema Ywanov <df.creative@gmail.com>",
+  "author": {
+    "name":"Deema Ywanov",
+    "email":"df.creative@gmail.com>"
+  },
   "license": "Unlicensed",
   "bugs": {
     "url": "https://github.com/dfcreative/wrap-file/issues"
