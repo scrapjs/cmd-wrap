@@ -24,7 +24,9 @@
     "wrapped",
     "closurecompiler",
     "stdin",
-    "output_wrapper"
+    "output_wrapper",
+    "prefix",
+    "suffix"
   ],
   "author": {
     "name": "Deema Ywanov",

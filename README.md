@@ -6,7 +6,7 @@ Wrap stdin.
 
 # Usage
 
-`$ echo <string> | wrap before after`
+`$ echo <string> | wrap <before> <after>`
 
 # Example
 
